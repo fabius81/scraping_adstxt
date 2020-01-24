@@ -1,0 +1,18 @@
+{
+  "name": "scraping_adstxt",
+  "version": "1.0.0",
+  "description": "A program to scraping ads.txt pages to check if publishers update ads.txt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabio Di Paolo",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "inquirer": "^7.0.3",
+    "puppeteer": "^2.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
